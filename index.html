@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>How much is your hockey team injured?</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/statscss.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet' type='text/css'>
+    <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+
+<a name="main"></a>
+
+<div id="section1">
+<h2 id="title">How much is your hockey team injured?</h2>
+
+<p>Evie Liu, University of Southern California</p>
+
+<div id="head">
+<label id="select">Select Conference</label>
+    <select id="selectconference">
+      <option  id="eastconference" value="eastern">Eastern Conference</option>
+      <option  id="westconference" value="western">Western Conference</option>
+
+    </select>
+        
+<div id="startbox">
+<a id="transit" href="#eastern"><button  class='btn btn-warning btn-large' id="start">Search Team</button></a>
+<a id="transit" href="#searchsection"><button  class='btn btn-warning btn-large' id="start">Search Player</button></a>
+</div>
+
+</div>
+</div>
+
+<div id="banner">
+</div>
+
+<a name="eastern"></a>
+<div id="section2">
+
+
+<div id="logos1">   
+
+<label for="select" id="selectteam">Select Team</label>
+<a id="transit" href="#result1"><button class='btn btn-warning btn-large' id="submit">Submit</button></a>
+
+ <input name="teamname" class="eastern" id="penguins" value="1" type="radio"><img src="img/Pittsburgh Penguins.gif">Pittsburgh Penguins</input>
+ <input name="teamname" class="eastern" id="bruins" value="2" type="radio"><img src="img/Boston Bruins.gif">Boston Bruins</input></br>
+  <input name="teamname" class="eastern" id="devils" value="3" type="radio"><img src="img/New Jersey Devils.gif">New Jersey Devils</input>
+   <input name="teamname" class="eastern" id="redwings" value="4" type="radio"><img src="img/Detroit Red Wings.gif">Detroit Red Wings</input> </br>
+    <input name="teamname" class="eastern" id="canadiens" value="5" type="radio"><img src="img/Montreal Canadiens.gif">Montreal Canadiens</input>
+ <input name="teamname" class="eastern" id="bluejackets" value="6" type="radio"><img src="img/Columbus Blue Jackets.gif">Columbus Blue Jackets</input></br>
+  <input name="teamname" class="eastern" id="hurricanes" value="7" type="radio"><img src="img/Carolina Hurricanes.gif">Carolina Hurricanes</input>
+   <input name="teamname" class="eastern" id="mapleleafs" value="8" type="radio"><img src="img/Toronto Maple Leafs.gif">Toronto Maple Leafs</input></br>
+    <input name="teamname" class="eastern" id="capitals" value="9" type="radio"><img src="img/Washington Capitals.gif">Washington Capitals</input>
+ <input name="teamname" class="eastern" id="rangers" value="10" type="radio"><img src="img/New York Rangers.gif">New York Rangers</input></br>
+  <input name="teamname" class="eastern" id="islanders" value="11" type="radio"><img src="img/New York Islanders.gif">New York Islanders</input>
+   <input name="teamname" class="eastern" id="senators" value="12" type="radio"><img src="img/Ottawa Senators.gif">Ottawa Senators</input> </br>
+
+ 
+</div> 
+
+<div id="logos2">
+    <input name="teamname" class="eastern" id="lightning" value="13" type="radio"><img src="img/Tampa Bay Lightning.gif">Tampa Bay Lightning</input>
+ <input name="teamname" class="eastern" id="bluejackets" value="14" type="radio"><img src="img/Florida Panthers.gif">Florida Panthers</input></br>
+  <input name="teamname" class="eastern" id="flyers" value="15" type="radio"><img src="img/Philadelphia Flyers.gif">Philadelphia Flyers</input>
+   <input name="teamname" class="eastern" id="sabres" value="16" type="radio"><img src="img/Buffalo Sabres.gif">Buffalo Sabres</input></br>
+</div>
+</div>
+
+<div id="banner">
+</div>
+
+<a name="western"></a>
+<div id="section3">
+
+<img id="west" src="img/west.gif">
+
+<div id="logos3">   
+
+
+<label id="selectteam">Select Team</label>
+<a id="transit" href="#result1"><button class='btn btn-warning btn-large' id="submit2">Submit</button></a>
+
+ <input name="teamname" class="western" id="jets" value="17" type="radio"><img src="img/Winnipeg Jets.gif">Winnipeg Jets</input>
+ <input name="teamname" class="western" id="ducks" value="18" type="radio"><img src="img/Anaheim Ducks.gif">Anaheim Ducks</input></br>
+  <input name="teamname" class="western" id="canucks" value="19" type="radio"><img src="img/Vancouver Canucks.gif">Vancouver Canucks</input>
+   <input name="teamname" class="western" id="sharks" value="20" type="radio"><img src="img/San Jose Sharks.gif">San Jose Sharks</input> </br>
+    <input name="teamname" class="western" id="flames" value="21" type="radio"><img src="img/Calgary Flames.gif">Calgary Flames</input>
+ <input name="teamname" class="western" id="avalanche" value="22" type="radio"><img src="img/Colorado Avalanche.gif">Colorado Avalanche</input></br>
+  <input name="teamname" class="western" id="wild" value="23" type="radio"><img src="img/Minnesota Wild.gif">Minnesota Wild</input>
+   <input name="teamname" class="western" id="coyotes" value="24" type="radio"><img src="img/Phoenix Coyotes.gif">Phoenix Coyotes</input></br>
+    <input name="teamname" class="western" id="blues" value="25" type="radio"><img src="img/St. Louis Blues.gif">St. Louis Blues</input>
+ <input name="teamname" class="western" id="kings" value="26" type="radio"><img src="img/Los Angeles Kings.gif">Los Angeles Kings</input></br>
+   <input name="teamname" class="western" id="blackhawks" value="27" type="radio"><img src="img/Chicago Blackhawks.gif">Chicago Blackhawks</input>
+   <input name="teamname" class="western" id="oilers" value="28" type="radio"><img src="img/Edmonton Oilers.gif">Edmonton Oilers</input> </br>
+</div> 
+
+<div id="logos4">
+ 
+<input name="teamname" class="western" id="stars" value="29" type="radio"><img src="img/Dallas Stars.gif">Dallas Stars</input>
+ <input name="teamname" class="western" id="predators" value="30" type="radio"><img src="img/Nashville Predators.gif">Nashville Predators</input></br>
+</div>
+
+</div>
+
+<div id="banner">
+</div>
+
+<a name="result1"></a>
+ <div id="section4">
+ 
+ <div class="span6" id="box1"> 
+ </div>
+ 
+ <div class="span6" id="innerbox1">
+ 
+
+</div>
+
+
+
+
+
+<div class="span6" id="box2">
+</div>
+
+ <div class="span6" id="innerbox2">
+ 
+ <img id="logo" src="">
+ 
+
+ <canvas id="bar" height="300" width="200"></canvas>
+ <canvas id="bar2" height="300" width="200"></canvas>
+
+ 
+</div>
+
+<a id="transit" href="#result2"><button class='btn btn-warning btn-large' id="financiallost">See Financial Lost</button></a>
+</div>
+
+<div id="banner">
+</div>
+
+<a name="result2"></a>
+ <div id="section5">
+ 
+ <div class="span12" id="box3"> 
+ 
+ </div>
+ 
+ <div class="span6" id="innerbox3">
+<div class="lala">
+</div>
+
+<a id="transit" href="#main"><button class='btn btn-warning btn-large' id="another">Select Another Team</button></a>
+
+</div>
+
+ </div> 
+ 
+
+<a name="searchsection"></a>
+
+ <div id="banner2">
+ <div id="searchtitle">
+Search the Database of Player Injuries</div>
+</div>
+ 
+  <div id="section6">
+
+
+ <div class="span5" id="searchbox">
+ </div>
+ 
+<div class="span5" id="innersearchbox">
+
+<label for="search" id="select">Type in Player Name</label>
+<input type="search" name="search" id="search" placeholder="Player name here"></input>
+
+</div>
+    
+<div class="span6" id="box4"> 
+</div>
+ 
+<div class="span6" id="innerbox4"> 
+</div>
+
+  <div id="tableau">
+  <script type='text/javascript' src='http://public.tableausoftware.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1170px; height: 440px;'><noscript><a href='#'><img alt=' ' src='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Da&#47;DataVisualizationofNHLInjuriesin2013-14Season&#47;BrowseNHLinjuriesbyteam&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1170' height='440' style='display:none;'><param name='host_url' value='http%3A%2F%2Fpublic.tableausoftware.com%2F' /> <param name='site_root' value='' /><param name='name' value='DataVisualizationofNHLInjuriesin2013-14Season&#47;BrowseNHLinjuriesbyteam' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Da&#47;DataVisualizationofNHLInjuriesin2013-14Season&#47;BrowseNHLinjuriesbyteam&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='amp;:showVizHome=no' /></object></div><div style='width:1170px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;'><div style='float:right; padding-right:8px;'></div></div>
+  </div>
+ 
+
+</div>
+    
+<!-- JAVASCRIPT -->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+       <script src="js/myjson3.js"></script>
+ 
+ <!-- Circlify -->      
+<script src="js/jquery.circliful.min.js"></script>
+
+<script>
+$( document ).ready(function() {
+        $('#percentage').circliful();
+    });
+</script>
+ 
+ 
+<!-- Canvas --> 
+  	<script src="js/Chart.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+		<style>
+			canvas{
+			}
+		</style>
+</body>
+</html>
