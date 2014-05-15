@@ -1,0 +1,173 @@
+{
+    "teams":
+[
+  {
+    "Number":3,
+    "Team":"Winnipeg Jets",
+    "Division":"Central",
+    "Conference":"Western",
+    "TMITT_skater":2636,
+    "Rate":1.8 ,
+    "Actual_Points":84,
+    "Actual_Rank":22,
+    "Potential_Points":149 ,
+    "Potential_Rank":2
+  },
+  {
+    "Number":4,
+    "Team":"Anaheim Ducks",
+    "Division":"Pacific",
+    "Conference":"Western",
+    "TMITT_skater":1886,
+    "Rate":1.3 ,
+    "Actual_Points":116,
+    "Actual_Rank":2,
+    "Potential_Points":147 ,
+    "Potential_Rank":3
+  },
+  {
+    "Number":6,
+    "Team":"Vancouver Canucks",
+    "Division":"Pacific",
+    "Conference":"Western",
+    "TMITT_skater":2544,
+    "Rate":1.7 ,
+    "Actual_Points":83,
+    "Actual_Rank":24,
+    "Potential_Points":142 ,
+    "Potential_Rank":5
+  },
+  {
+    "Number":10,
+    "Team":"San Jose Sharks",
+    "Division":"Pacific",
+    "Conference":"Western",
+    "TMITT_skater":1898,
+    "Rate":1.3 ,
+    "Actual_Points":111,
+    "Actual_Rank":4,
+    "Potential_Points":142 ,
+    "Potential_Rank":6
+  },
+  {
+    "Number":12,
+    "Team":"Calgary Flames",
+    "Division":"Pacific",
+    "Conference":"Western",
+    "TMITT_skater":2652,
+    "Rate":1.8 ,
+    "Actual_Points":77,
+    "Actual_Rank":27,
+    "Potential_Points":137 ,
+    "Potential_Rank":7
+  },
+  {
+    "Number":20,
+    "Team":"Colorado Avalanche",
+    "Division":"Central",
+    "Conference":"Western",
+    "TMITT_skater":1602,
+    "Rate":1.1 ,
+    "Actual_Points":112,
+    "Actual_Rank":3,
+    "Potential_Points":121 ,
+    "Potential_Rank":11
+  },
+  {
+    "Number":14,
+    "Team":"Minnesota Wild",
+    "Division":"Central",
+    "Conference":"Western",
+    "TMITT_skater":1819,
+    "Rate":1.2 ,
+    "Actual_Points":98,
+    "Actual_Rank":11,
+    "Potential_Points":120 ,
+    "Potential_Rank":12
+  },
+  {
+    "Number":27,
+    "Team":"Phoenix Coyotes",
+    "Division":"Pacific",
+    "Conference":"Western",
+    "TMITT_skater":1549,
+    "Rate":1.0 ,
+    "Actual_Points":89,
+    "Actual_Rank":18,
+    "Potential_Points":93 ,
+    "Potential_Rank":13
+  },
+  {
+    "Number":24,
+    "Team":"St. Louis Blues",
+    "Division":"Central",
+    "Conference":"Western",
+    "TMITT_skater":881,
+    "Rate":0.6 ,
+    "Actual_Points":111,
+    "Actual_Rank":5,
+    "Potential_Points":66 ,
+    "Potential_Rank":20
+  },
+  {
+    "Number":29,
+    "Team":"Los Angeles Kings",
+    "Division":"Pacific",
+    "Conference":"Western",
+    "TMITT_skater":826,
+    "Rate":0.6 ,
+    "Actual_Points":100,
+    "Actual_Rank":10,
+    "Potential_Points":56 ,
+    "Potential_Rank":22
+  },
+  {
+    "Number":23,
+    "Team":"Chicago Blackhawks",
+    "Division":"Central",
+    "Conference":"Western",
+    "TMITT_skater":620,
+    "Rate":0.4 ,
+    "Actual_Points":107,
+    "Actual_Rank":7,
+    "Potential_Points":45 ,
+    "Potential_Rank":25
+  },
+  {
+    "Number":8,
+    "Team":"Edmonton Oilers",
+    "Division":"Pacific",
+    "Conference":"Western",
+    "TMITT_skater":881,
+    "Rate":0.6 ,
+    "Actual_Points":67,
+    "Actual_Rank":28,
+    "Potential_Points":40 ,
+    "Potential_Rank":26
+  },
+  {
+    "Number":26,
+    "Team":"Dallas Stars",
+    "Division":"Central",
+    "Conference":"Western",
+    "TMITT_skater":435,
+    "Rate":0.3 ,
+    "Actual_Points":91,
+    "Actual_Rank":16,
+    "Potential_Points":27 ,
+    "Potential_Rank":27
+  },
+  {
+    "Number":25,
+    "Team":"Nashville Predators",
+    "Division":"Central",
+    "Conference":"Western",
+    "TMITT_skater":322,
+    "Rate":0.2 ,
+    "Actual_Points":88,
+    "Actual_Rank":21,
+    "Potential_Points":19 ,
+    "Potential_Rank":30
+  }
+]
+}
