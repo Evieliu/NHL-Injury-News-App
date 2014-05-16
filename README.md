@@ -79,20 +79,23 @@ Then I ranked the teams again with these “hypothetical points” and got a “
 
 Data & Image Credit
 ----------------------
-Team & player injury data (Injured, Man Games Lost, CHIP, TMITT)
+<b>Team & player injury data (Injured, Man Games Lost, CHIP, TMITT)</>
 
 Courtesy [www.mangameslost.com](http://www.mangameslost.com/end-2013-2014-regular-season-man-games-lost-chip-tmitt-april-14-2014/)
 
-Team performance data (Points)
+<b>Team performance data (Points)</b>
+
 Courtesy [www.NHL.com](http://www.nhl.com/ice/standings.htm)
 
-####Team financial data (Revenue)
+<b>Team financial data (Revenue)</b>
+
 Courtesy [www.forbes.com](http://www.forbes.com/nhl-valuations/list/#page:1_sort:0_direction:asc_search:)
 
-####NHL Team Logos 
+<b>NHL Team Logos</b> 
+
 Courtesy [www.official-nhl.tumblr.com](http://official-nhl.tumblr.com/post/48006936448/nhl-icon-pack-transparent-150x100-png-icons-of)
 
-####Background Images
+<b>Background Images</b>
 Courtesy [www.hdwallsource.com](http://hdwallsource.com/nhl-wallpaper-15323.html) & [www.pichost.me](http://pichost.me/1473757/)
 
 http://pichost.me/1317020/
