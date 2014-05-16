@@ -63,7 +63,7 @@ Time Missed Impact To Team (TMITT) is a metric that attempts to quantify the imp
 
            Basic NHL TMITT = (playerGP x ATOI x playerGamesInjured) / teamGP
 
-####<b>How did you exclude the influence of player injuries and calculate the hypothetical points/ ranking?</b>
+####<b>How did you calculate the hypothetical points/ ranking without injury influence?</b>
 
 I calculated the average of 30 teams’ TMITT and created an index by dividing each team’s TMITT by the average number. Since a bigger index number means a higher TMITT and therefore a higher impact of player injuries on the team, the bigger the index number is, the lower the team’s “hypothetical points” should be. 
 
@@ -79,24 +79,15 @@ Then I ranked the teams again with these “hypothetical points” and got a “
 
 Data & Image Credit
 ----------------------
-<b>Team & player injury data (Injured, Man Games Lost, CHIP, TMITT)</>
+<b>Team & player injury data (Injured, Man Games Lost, CHIP, TMITT)</b>  Courtesy [www.mangameslost.com](http://www.mangameslost.com/end-2013-2014-regular-season-man-games-lost-chip-tmitt-april-14-2014/)
 
-Courtesy [www.mangameslost.com](http://www.mangameslost.com/end-2013-2014-regular-season-man-games-lost-chip-tmitt-april-14-2014/)
+<b>Team performance data (Points)</b>  Courtesy [www.NHL.com](http://www.nhl.com/ice/standings.htm)
 
-<b>Team performance data (Points)</b>
+<b>Team financial data (Revenue)</b>  Courtesy [www.forbes.com](http://www.forbes.com/nhl-valuations/list/#page:1_sort:0_direction:asc_search:)
 
-Courtesy [www.NHL.com](http://www.nhl.com/ice/standings.htm)
+<b>NHL Team Logos</b>   Courtesy [www.official-nhl.tumblr.com](http://official-nhl.tumblr.com/post/48006936448/nhl-icon-pack-transparent-150x100-png-icons-of)
 
-<b>Team financial data (Revenue)</b>
-
-Courtesy [www.forbes.com](http://www.forbes.com/nhl-valuations/list/#page:1_sort:0_direction:asc_search:)
-
-<b>NHL Team Logos</b> 
-
-Courtesy [www.official-nhl.tumblr.com](http://official-nhl.tumblr.com/post/48006936448/nhl-icon-pack-transparent-150x100-png-icons-of)
-
-<b>Background Images</b>
-Courtesy [www.hdwallsource.com](http://hdwallsource.com/nhl-wallpaper-15323.html) & [www.pichost.me](http://pichost.me/1473757/)
+<b>Background Images</b>  Courtesy [www.hdwallsource.com](http://hdwallsource.com/nhl-wallpaper-15323.html) & [www.pichost.me](http://pichost.me/1473757/)
 
 http://pichost.me/1317020/
 http://hdwallsource.com/nhl-wallpaper-15321.html
