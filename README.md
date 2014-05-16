@@ -50,21 +50,20 @@ Used Framework & Plugin
 Data Notes & Explanation
 ----------------------
 
-<b>What is Man Games Lost?</b>
-
+####<b>What is Man Games Lost?</b>
 This number is the official, team-reported Man Games Lost number for each team as of their last game. An injured player missing 1 game is counted as 1 man games lost for the team. 
 
-<b>What is CHIP?</b>
+####<b>What is CHIP?</b>
 
 Cap Hit of Injured Player (CHIP) is a metric that attempt to quantify the impact of a player not playing for their team due to injury. It utilizes a player’s cap hit under the formula CHIP = (CapHit x playerGamesInjured)/82. The result represents the amount of cap hit or salary lost based on the number of games lost by the player to injury over an 82 game season.
 
-<b>What is TMITT?</b>
+####<b>What is TMITT?</b>
 
 Time Missed Impact To Team (TMITT) is a metric that attempts to quantify the impact of a player not playing for their team due to injury. A higher TMITT number equals a higher impact of injured players to the team. TMITT utilizes a skater’s average time on ice (ATOI) or minutes played for goalies, the number of games missed due to injury, the number of games played by their team, and the number of games that the player has played in (necessary due to players who aren’t on the team’s roster or IR at all times i.e. AHL call-ups).
 
            Basic NHL TMITT = (playerGP x ATOI x playerGamesInjured) / teamGP
 
-<b>How did you exclude the influence of player injuries and calculate the hypothetical points/ ranking?</b>
+####<b>How did you exclude the influence of player injuries and calculate the hypothetical points/ ranking?</b>
 
 I calculated the average of 30 teams’ TMITT and created an index by dividing each team’s TMITT by the average number. Since a bigger index number means a higher TMITT and therefore a higher impact of player injuries on the team, the bigger the index number is, the lower the team’s “hypothetical points” should be. 
 
@@ -74,17 +73,17 @@ Then I ranked the teams again with these “hypothetical points” and got a “
 
            Hypothetical Points = ActualPoints / (TMITT/TMITTAverage) 
 
-<b>How did you calculate the percentage of lost cap hit to the team’s annual revenue?</b>
+####<b>How did you calculate the percentage of lost cap hit to the team’s annual revenue?</b>
 
            Percentage = TeamCHIP / TeamRevenue
 
 Data & Image Credit
 ----------------------
-####Team & player injury data (Injured, Man Games Lost, CHIP, TMITT)
+Team & player injury data (Injured, Man Games Lost, CHIP, TMITT)
 
 Courtesy [www.mangameslost.com](http://www.mangameslost.com/end-2013-2014-regular-season-man-games-lost-chip-tmitt-april-14-2014/)
 
-####Team performance data (Points)
+Team performance data (Points)
 Courtesy [www.NHL.com](http://www.nhl.com/ice/standings.htm)
 
 ####Team financial data (Revenue)
