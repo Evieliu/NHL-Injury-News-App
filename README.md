@@ -8,7 +8,7 @@ This is a news application that tracks all the injury data from the NHL 2013-14 
 
 Idea
 ----------------------
-The story idea was inspired by a news article from PRI.com earlier this January, which reported that injuries sustained by players in the NHL cost the league nearly $218 million each season. The number was astonishing for me and pushed me to think about how much the injuries have impacted each team in the league.
+The story idea was inspired by a news article from [PRI.com](http://www.pri.org/stories/2014-01-21/new-medical-report-puts-price-nhl-hockey-injuries) earlier this January, which reported that injuries sustained by players in the NHL cost the league nearly $218 million each season. The number was astonishing for me and pushed me to think about how much the injuries have impacted each team in the league.
 
 Are there some teams that suffered more, some less? Are there more vulnerable positions on the hockey field? Do the top-value players get injured most, or the opposite? How much would a team have to pay for player injuries? Does that account for a big proportion of its financial statement? And how would the game result be different if we exclude the injury influence? If a team could have performed much much better without injuries, does that mean it needs to change some of its strategies?
 
@@ -32,7 +32,8 @@ Workflow
 - Acquire user input and process back-end database using JQuery and JSON.
 - Incorporate and customize JQuery plugins to create interactive charts for data visualization.
 - Design the flow of user experience and make sure the launch of each function is flawless.
-- Locate the project on a server so that people can view it online.
+- Create and embed the Tableau chart to the news application.
+- Locate the whole project on a server so that people can view it online.
 
 Functionality
 ----------------------
