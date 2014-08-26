@@ -5,6 +5,8 @@ About
 ----------------------
 This is a news application that tracks all the injury data from the NHL 2013-14 regular season (no playoffs) and analyzes their impact on team performance and financial status.
 
+Project URL: http://www.eviexing.com/nhlinjury/
+
 
 Idea
 ----------------------
