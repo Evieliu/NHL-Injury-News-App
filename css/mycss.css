@@ -1,385 +1,207 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-#section1 {
-background:url(../img/background1.jpg) no-repeat;
-background-size: 100%;
-height: 590px;
+body {
+	background-image: url('../img/background.jpg');
+	background-size: 100%;
 }
 
-#section2 {
-background:url(../img/east.gif) no-repeat;
-background-size: 50%;
-background-position:inherit;
-height: 750px;
-margin-top: 50px;
+#intro {
+	width:60%;
+	padding-bottom: 40px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; 
+	font-size: 18px;
+	color: white;
+	text-align: left;
 }
 
-#section3 {
-height: 800px;
+#startbox {
+	margin-bottom: 40px;
+	height: auto;
 }
 
-#section4 {
-background:url(../img/background5.jpg) no-repeat;
-background-size: 100%;
-height: 700px;
+#logo-east{
+	margin-left: 10%;
+	margin-right: 40px;
+
 }
 
-#section5 {
-background:url(../img/background6.jpg) no-repeat;
-background-size: 100%;
-height: 700px;
+.eastern {
+	padding-left: 20px;
+	padding-bottom: 40px;
+	width: 40%;
+	display: none;
 }
 
-#section6 {
-background:url(../img/allteams.jpg);
-background-repeat: repeat-y;
-background-size: 100%;
-height: 900px;
+.western {
+	padding-left: 20px;
+	padding-bottom: 40px;
+	width: 40%;
+	display: none;
 }
 
-#west {
-height:500px;
-position:absolute;
-top: 1470px;
-right: 20px;
-}	
-	
-#banner {
-background:hsla(0,0%,0%,1.00);
-height: 10px;
-}	
-	
-#banner2 {
-background:hsla(0,0%,0%,1.00);
-height: 100px;
-}	
-
-#logos1 {
-position: absolute;
-left: 700px;
-top: 670px;
-}	
-
-#logos2 {
-position: absolute;
-left: 50px;
-top: 1150px;
-}
-	
-#logos3 {
-position: absolute;
-left: 50px;
-top: 1470px;
-}
-	
-#logos4 {
-position: absolute;
-left: 700px;
-top: 2040px;
-}
-	
-
-#selectteam {
-padding-bottom: 50px;
-}
-	
-
-#box1 {
-	 height:450px;
-	 padding: 50px; 
-	 margin: 50px; 
-	 position:absolute;
-	 left: 30px;
-	 top: 2230px;
-	 background-color:hsla(0,0%,100%,1.00);
-	 opacity: 0.8;
-	 border-radius: 5em;
+.logo {
+	padding: 10px;
 }
 
-#innerbox1 {
-	height:450px;
-	padding: 50px; 
-	 margin: 50px; 
-	 position:absolute;
-	 left: 30px;
-	 top: 2230px;
-	 border-radius: 5em;
+#east-conference, #west-conference {
+	padding-top: 20px
+
 }
 
-#box2 {
-	 height:450px;
-	 padding: 50px; 
-	 margin: 50px; 
-	 position:absolute;
-	 left: 700px;
-	 top: 2230px;
-	 background-color:white;
-	 opacity: 0.8;
-	 border-radius: 5em;
+#east-dropdown, #west-dropdown {
+	float:left;
+	padding-top: 40px;
 }
 
-#innerbox2 {
-	 height:450px;
-	 padding: 50px; 
-	 margin: 50px; 
-	 position:absolute;
-	 left: 700px;
-	 top: 2230px;
-	 border-radius: 5em;
+#infobox1, #infobox2, #infobox3 {
+	padding-right: 20px; 
+	margin-left: 20px; 
+	border-radius: 2em;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
-#box3 {
-	 height:450px;
-	 padding: 50px; 
-	 margin: 50px; 
-	 position:absolute;
-	 left: 100px;
-	 top: 2960px;
-	 background-color:hsla(0,0%,100%,1.00);
-	 opacity: 0.8;
-	 border-radius: 5em;
+
+#playerinfobox {
+	 padding: 20px; 
 }
 
-#innerbox3 {
-	height:450px;
-	padding: 50px; 
-	 margin: 50px; 
-	 position:absolute;
-	 left: 100px;
-	 top: 2960px;
-	 border-radius: 5em;
-}	
-
-#box4 {
-	 height:100px;
-	 padding: 50px; 
-	 margin: 50px; 
-	 position:absolute;
-	 left: 650px;
-	 top: 3750px;
-	 background-color:white;
-	 opacity: 0.8;
-	 border-radius: 5em;
+#searchplayerbox {
+	padding: 20px; 
+	border-radius: 2em;
+	margin-left: 5%;
+	margin-right: 60px;
+	margin-bottom: 20px;
+	border-width: 3px;
+	border-style: solid;
+	background-color: white;
+	height: 458px;
+	overflow: scroll;
 }
 
-#innerbox4 {
-	 height:100px;
-	 padding: 50px; 
-	 margin: 50px; 
-	 border-radius: 5em;
-	 position:absolute;
-	 left: 650px;
-	 top: 3750px;
+#searchplayerlabel {
+	width: auto;
+	padding-right: 20px;
 }
 
-#searchbox {
-	 height:100px;
-	 padding: 50px; 
-	 margin: 50px; 
-	 border-radius: 5em;
-	 position:absolute;
-	 left:50px;
-	 top: 3750px;
-	 background-color:red;
-	 opacity: 0.8;
+#searchteambox {
+	 border-radius: 2em;
+	 padding: 20px;
+	 margin-left: 5%;
+	 border-width: 3px;
+	 border-style: solid;
+	 background-color: white;
 }
 
-#innersearchbox {
-	 height:100px;
-	 padding: 50px; 
-	 margin: 50px; 
-	 border-radius: 5em;
-	 position:absolute;
-	 left:50px;
-	 top: 3750px;
+#searchteamlabel {
+	width: 80%;
 }
 
+#resultbox {
+	border-width: 3px;
+	border-style: solid;
+	background-color: white;
+	height:100px;
+	border-radius: 2em;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 40px;
+	padding: 20px;
+	display: none;
+	height: 110%;
+}
 
 #title {
 	padding: 20px;
 	margin: 10px;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 76px;
+	font-size: 70px;
 	color:hsla(36,79%,45%,1.00);
-	width: 800px;
-	text-align:center;
 	line-height:normal;
-	position:absolute;
-	left: 500px;
-	top: 50px;
 } 
 
-#head {
-	position:absolute;
-	left: 100px;
-	top: 350px;
-}
-
-#select {
-	color: white;
-}
 	
 label {
-	font-size: 20px;	
+	font-size: 20px;
+	width: 200px;
+	margin-bottom: 20px;	
 }
-	
-#start {
-	margin: 20px 40px 20px 0px;
-	padding-left: 30px;
-	padding-right: 30px;
+
+.chiplabel {
+	position:relative;
+	top: -70px;
+	left: 20px;
 }
 	
 #logo {
-	position: absolute;
-	left: 280px;
-	top: 50px;
-	height: 150px;
+	height: 100px;
 }
 
 h2 {
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: 48px;
 	color: black;
-	float: right;
 }
 
-p {
-	font-size: 28px;
-	color:white;
-	line-height: 10px;
-	position:absolute;
-	left: 700px;
-	top: 330px;	
-}
-
-#checkboxa {
-font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; 
-margin-right: 20px;
-margin-bottom:20px;
-font-size:18px;
-color:hsla(33,100%,52%,1.00);
-}
 
 #emphasize {
-font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-font-size: 48px;
-color:hsla(36,79%,45%,1.00);
-line-height: 30px;
-}
-
-#normal {
-font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; 
-font-size:24px;
-margin-right: 20px;
-color:hsla(0,0%,1%,1.00);
-line-height: 30px;
-}
-
-#teamname {
-font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif; 
-font-size: 70px;
-color:hsla(36,79%,45%,1.00);
-line-height: 70px;
-margin-bottom: 30px;	
-}
-
-#playername {
-font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-font-size: 24px;
-color:hsla(36,79%,45%,1.00);
-}
-
-#playerinfo {
-font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; 
-font-size:18px;
-margin-right: 20px;
-color:hsla(0,0%,1%,1.00);
-}
-
-#headshot {
-width: 150px;
-float:right;
-}
-
-#searchtitle {
-font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-font-weight:600;
-font-size: 40px;
-color:white;
-position: relative;
-top: 35px;
-left: 300px;
-}
-
-#submit {
-position:absolute;
-left: 150px;
-top: -10px;
-}
-
-#submit2 {
-position:absolute;
-left: 150px;
-top: -10px; 
-}
-
-#whatif {
-position:absolute;
-left: 100px;
-}
-
-#showbar {
-position:absolute;
-left: 50px;
-top: 50px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	color:hsla(36,79%,45%,1.00);
+	line-height: 30px;
 }
 
 #financiallost {
-position:absolute;
-left: 600px;
-top: 2850px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	color:hsla(36,79%,45%,1.00);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-weight: bold;
 }
 
-#another {
-position:absolute;
-left: 100px;
-top: 480px;
+#normal {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; 
+	font-size:24px;
+	margin-right: 20px;
+	color:hsla(0,0%,1%,1.00);
+	line-height: 30px;
 }
 
-#percentage {
-visibility:hidden;
+#teamname {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif; 
+	font-size: 70px;
+	color:hsla(36,79%,45%,1.00);
+	line-height: 70px;
+	margin-bottom: 30px;	
 }
 
-#bar {
-position: absolute;
-top: 200px;
-left: 50px;
-} 
+#playername {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color:hsla(36,79%,45%,1.00);
+}
 
-#bar2 {
-position: absolute;
-top: 200px;
-left: 300px;
-} 
+#playerinfo {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; 
+	font-size:18px;
+	margin-right: 20px;
+	color:hsla(0,0%,1%,1.00);
+}
 
-
-#pie {
-position: absolute;
-top: 100px;
-left: 550px;
-} 
+ul {
+	list-style-type: none;
+}
 
 
-.chiplabel {
-position: absolute;
-top: 150px;
-left: 750px;
-} 
+#submit, #another {
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
 
 #tableau {
-position: relative;
-top: 350px;
-left: 100px;
-} 
+	margin-left: 80px;
+	margin-right: 80px;
+}
